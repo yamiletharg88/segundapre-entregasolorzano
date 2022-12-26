@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    min-height: calc(100 - 160px);
+    text-align: center;
+
+    
+}
+
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+padding: 20px;
+border: 2px solid black;
+border position: center;
+width: 50%;
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+   
+
+.encabezado{
+    height: 100px;
+    background-image: url(../imgdesafio/ojitos\ proyecto.jpeg);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-transform: capitalize;
+    padding: 25px;
+}
+.logo{
+    float: left;
+    
+}
+
+.barra{
+    float: right;
+}
+
+.encabezado:hover{
+    color: rgb(165, 130, 15);
+
+}
+.encabezado ul li{
+    list-style: none;
+    display: inline-block;
+}
+.encabezado ul li a{
+    text-decoration: none;
+    color:rgb(130, 13, 240);
+    justify-content: space-around;
+
+}
+
+.encabezado ul li a:hover{
+    color: white;
+}
+
+.maincontacto{
+    min-height: calc(100 - 160);
+}
+
+
+main.p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+.formulario{
+    float:central;
+}
+
+
+
+
+
+
+
+
+
+
+.logo{
+    float: left;
+}
+
+.final{
+    background-color: rgb(48, 2, 48);
+    height: 80px;
+}
+.footer_socials{
+    height: 80px;
+    background-color:rgb(48, 2, 48);
+}
+
+.home{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    width: 40%;
+    padding: 100px;
+    
+
+}
+
+
+    
+
+.recomensationscustomer2{
+    float: right;
+}
+
+.dejanosinfo{
+    width: 50%;
+    margin: auto;
+}
+.maincontacto form{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+   
+}
+.mainhorarios{
+    height: 400px;
+
+}
+
