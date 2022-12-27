@@ -32,6 +32,9 @@ color: white;
 
 
 }
+.navbar-brand img{
+    width: 50px;
+}
    
 h1{
     color: blue;
@@ -42,28 +45,13 @@ h2{
 P{
     color: white;
 }
-.encabezado{
-    height: 100px;
-    background-image: url(../imgdesafio/ojitos\ proyecto.jpeg);
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgba(53, 5, 5, 0.493);
-    text-transform: capitalize;
-    padding: 25px;
-}
 
 
-.encabezado ul li a{
-    text-decoration: none;
-    color:rgb(130, 13, 240);
-    justify-content: space-around;
-
-}
 
 
-.maincontacto{
-    min-height: calc(100 - 160);
-}
+
+
+
 
 
 main.p{
@@ -72,10 +60,72 @@ main.p{
 }
 
 
+.carousel-item img{
+    max-height: calc(50vh-50px);
+    height: 80vh;
+    margin: 30px;
+}
 
+.tituserv{
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-family: font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.galeria{
+    height: auto;
+    width: 100%;
+    background-color: rgb(247, 241, 241);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: repeat(8,250px);
+    grid-gap: 20px;
+}
+.item{
+    
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+    border: 2px solid #000;
+    background-size: cover;
+    background-position: center; 
+}
 
+.item1{
+    background-image: url(../imgdesafio/todoenorden1.jpeg);
+  
+}
+.item2{
+    background-image: url(../imgdesafio/todoenorden2.gif);
+  
+}
+.item3{
+    background-image: url(../imgdesafio/todoenorden3.jpeg);
+  
+}
+.item4{
+    background-image: url(../imgdesafio/todoenorden4.jpg);
+  
+}
+.item5{
+    background-image: url(../imgdesafio/todoenorden5.jpg);
+  
+}
+.item6{
+    background-image: url(../imgdesafio/sala.jpeg);
+  
 
+}
 
+.item7{
+    background-image: url(../imgdesafio/casalimpia2.jpeg);
+  
+}
+.item8{
+    background-image: url(../imgdesafio/casalimpia.jpeg);
+  
+}
 
 
 .formulario{
@@ -90,10 +140,6 @@ main.p{
 
 
 
-
-.logo{
-    float: left;
-}
 
 .final{
     background-color: rgb(48, 2, 48);
@@ -135,4 +181,16 @@ main.p{
     height: 400px;
 
 }
-
+@media only screen and (min-width: 480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-row: repeat (4, 200px);
+    }
+    }
+@media only screen and (min-width: 768px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item1{
+        grid-column:  1/3;}
+}
